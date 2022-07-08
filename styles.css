@@ -18,7 +18,7 @@ body header{
 }
 
  ul {
-    border: 0.1em solid maroon;
+    border: 0.1em solid gray;
     background-color: rgb(151, 163, 175);
     padding-left: 15%;
     padding-bottom: 2%;
