@@ -3,70 +3,27 @@ html {
     scroll-behavior: smooth;
 }
 
-
-h1 {
-     letter-spacing: 0.1em;
-     text-align: center;
-     font-family:'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-h2 {
-    text-align: center;
-     font-family:'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-body header{
-    background-color: rgb(5, 80, 130);
-}
-
- ul {
-    border: 0.1em solid gray;
-    background-color: rgb(151, 163, 175);
-    padding-left: 15%;
-    padding-bottom: 2%;
-    margin-bottom: 0%;
-}
-
- ul li {
-    list-style: none;
-    display: inline;
-    letter-spacing: 0.1em;
-    text-align: center;
-    padding: 0.em;
-    font-size: 105%;
-    margin: 8%
-}
-
- ul li a {
-    list-style: none;
-    display: inline;
-    letter-spacing: 0.05em;
-    color: black;
-    font-weight: bold;
-    font-family:'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 5px;
-    font-size: 1.5em;
-}
-
-ul li a:hover {
-    color: rgb(5, 80, 130);
-}
-section {
-    height: 100%;
-}
-
-#linkedin {
-    background-color: black;
-}
-#github {
-    background-color: white;
-}
-#e_rfcs {
-    background-color: rgb(5, 80, 130);
-}
 p {
-    font-family: 'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
-    text-align: left;
+    font-family: 'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
 
- #linkedin p, #e_rfcs p {
-    color: white;
+h3 {
+
+     font-family:'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+
+#linkedin {
+    background-color: gray;
+}
+#github {
+    background-color: lightblue;
+}
+
+#blog {
+    background-color: aliceblue;
+}
+
+
+
+
