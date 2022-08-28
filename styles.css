@@ -3,10 +3,19 @@ html {
     scroll-behavior: smooth;
 }
 
+#linkedin p {
+    position: absolute;
+    top: 50px;
+}
+
+#github p {
+    position: relative;
+    top: 50px;
+}
+
 p {
     font-family: 'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    
  }
 
 h3 {
