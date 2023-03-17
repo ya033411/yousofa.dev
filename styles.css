@@ -1,41 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Space+Mono&display=swap');
-html {
-    scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+.p1 {
+    background-color: white;
+    height: 400px;
 }
 
-#linkedin p {
+.cursor {
+    background-color: black;
+    height: 0.5%;
+    width: 1%;
     position: absolute;
-    top: 50px;
+    top: 155px;
+    left: 75px;
 }
 
-#github p {
-    position: relative;
-    top: 50px;
+/*.message {
+    background-color: white;
+    height: 3%;
+    width: 20%;
+    position: absolute;
+    left: 25px;
+    top: 170px;
+}*/
+
+.p1 .cursor {
+    animation: blink 0.2s linear 10, right 0.25s linear forwards 2s, blink 0.2s linear infinite 2.5s;
 }
 
-p {
-    font-size: 20px;
-    font-family: 'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*.p1:hover .message {
+    animation: right 3s linear 1;
+}*/
+
+@keyframes blink {
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes right {
+    100% {
+        transform: translateX(130px);
+    }
+}
+
+.p2 {
+    background-color: white;
+    height: 400px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: monospace;
+    color: black;
+    overflow: hidden;
+    width: 0%;
+    position: absolute;
+    top: 104px;
+    left: 80px;
+}
+
+.p1 h1{
+    animation: typing 3s linear forwards 2s;
+}
+
+
+@keyframes typing {
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+.p2 p {
     text-align: center;
- }
-
-h3 {
-
-     font-family:'PT Sans',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-size: 20px;
+    font-family: 'Stick No Bills', sans-serif;
 }
 
 
-#linkedin {
-    background-color: gray;
-}
-#github {
-    background-color: lightblue;
-}
+.p2 img {
+    height:100px;
+    width:100px;
+    display: inline;
 
-#blog {
-    background-color: aliceblue;
 }
 
-
-
+.p2 .p2-content {
+    padding: 120px;
+    text-align: center;
+}
 
