@@ -2,6 +2,9 @@
 .p1 {
     background-color: white;
     height: 400px;
+    position: relative;
+    z-index: 2;
+    animation: disappear 3s linear forwards 4s;
 }
 
 .cursor {
@@ -23,7 +26,7 @@
 }*/
 
 .p1 .cursor {
-    animation: blink 0.2s linear 10, right 0.25s linear forwards 2s, blink 0.2s linear infinite 2.5s;
+    animation: blink 0.2s linear 10, right 0.25s linear forwards 2s, blink 0.2s linear 25 2.25s;
 }
 
 /*.p1:hover .message {
@@ -45,6 +48,11 @@
 .p2 {
     background-color: white;
     height: 400px;
+    position: relative;
+    margin-top: -400px;
+    z-index: 1;
+    animation: appear 3s linear forwards 7s;
+    opacity: 0%;
 }
 
 h1 {
@@ -69,7 +77,19 @@ h1 {
     }
 }
 
+@keyframes disappear {
+    100% {
+        z-index: 1;
+        opacity: 0%;
+    }
+}
 
+@keyframes appear {
+    100% {
+        z-index: 2;
+        opacity: 100%;
+    }
+}
 
 .p2 p {
     text-align: center;
