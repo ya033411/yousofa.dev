@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <div class="p1">
-        <h1>Welcome</h1>
-        <div class="cursor"></div>
-    </div>
-    <div class="p2">
-        <div class="p2-content">
-            <p>Yousof Akbarzai, Aspiring Software Engineer</p>
-            <a href="https://www.github.com/ya033411"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
-            <a href="https://www.linkedin.com/in/yousofakbarzai/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
-        </div>
-    </div>
-</body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			html,body { margin: 0; height: 100%;}
+                        #c {
+        			width: 100%;
+				height: 100%;
+				display: block;
+      			}
+			#links {
+				position: absolute;
+				top: 250px;
+				left: 30px;
+				text-align: center;
+				z-index: 100;
+				width: 100%;
+				display:none;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+                <canvas id="c"></canvas>
+		<script type="module" src="/main.js"></script>
+                <div id="links">
+                 <p>Yousof Akbarzai, Aspiring Software Engineer</p>
+                 <a href="https://www.github.com/ya033411"><img height="100px" width="100px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
+                 <a href="https://www.linkedin.com/in/yousofakbarzai/"><img width="100px" height="100px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
+               </div>
+	</body>
 </html>
+
