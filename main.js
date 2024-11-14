@@ -11,30 +11,6 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
   camera.position.x = 3;
   camera.position.y = 3;
   const scene = new THREE.Scene();
- /* const geometry = new THREE.SphereGeometry();
-  const material = new THREE.MeshPhongMaterial({color:0xffff00});
-  const mesh = new THREE.Mesh(geometry,material);
-  mesh.position.x = 0; 
-  mesh.position.y = 1;
-  scene.add(mesh);
-  const color = 0xFFFFFF;
-  const intensity = 3;
-  const light = new THREE.DirectionalLight(color,intensity);
-  light.position.set(-1,2,4);
-  scene.add(light);
-  scene.background = new THREE.Color(0xAAAAAA);
-  const controls = new OrbitControls(camera,canvas);
-  controls.target.set(0,1,0);
-  controls.update();
-  
-  function render(time) {
-    time *= 0.001;
-    mesh.rotation.x = time;
-    mesh.rotation.y = time;
-    renderer.render(scene,camera);
-    requestAnimationFrame(render);
-  }  
-  requestAnimationFrame(render);*/
   const material = new THREE.LineBasicMaterial({color:0xffffff});
   for (let i = 0; i < 125; i++) {
     const points = [];
